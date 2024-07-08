@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100vw;
+  z-index: 10000;
+}
+.searchForm {
+  background-color: rgba(0, 0, 161, 0.753);
+  padding: 7px 0;
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+.searchInput,
+.searchInput:hover,
+.searchInput:focus,
+.searchInput:active {
+  padding: 5px 3px;
+  border: none;
+  outline: none;
+  width: 30%;
+  background-color: white;
+  margin-left: -1px;
+  font-size: medium;
+  font-weight: 500;
+}
+::placeholder {
+  color: rgb(175, 175, 175);
+}
+.searchButton,
+.searchButton:hover,
+.searchButton:focus,
+.searchButton:active {
+  display: flex;
+  padding: 0 4px;
+  border: none;
+  align-items: center;
+  background-color: white;
+}

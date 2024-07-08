@@ -1,0 +1,10 @@
+.onClicBtn {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  padding: 5px 10px;
+  font-size: large;
+  background-color: rgba(0, 0, 161, 0.753);
+  color: white;
+  border-radius: 3px;
+}

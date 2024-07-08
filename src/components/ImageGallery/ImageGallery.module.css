@@ -1,0 +1,18 @@
+.galleryList {
+  scroll-behavior: smooth;
+  width: 97vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 15px;
+}
+.galleryItem {
+  width: calc((100% - 47px) / 4);
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  border: 1px solid rgb(181, 179, 179);
+}
+.galleryItem:hover {
+  scale: 1.03;
+}

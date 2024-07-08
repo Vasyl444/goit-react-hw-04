@@ -1,0 +1,23 @@
+.imageModal {
+  height: 95vh;
+  display: flex;
+}
+.modalImg {
+  display: block;
+  height: 92vh;
+}
+.contentWrapper {
+  position: relative;
+}
+.contentText {
+  display: block;
+  font-size: large;
+  font-weight: 400;
+  padding: 3px;
+  margin: 0;
+}
+.textWrapper {
+  position: absolute;
+  bottom: 5.5%;
+  background-color: black;
+}
