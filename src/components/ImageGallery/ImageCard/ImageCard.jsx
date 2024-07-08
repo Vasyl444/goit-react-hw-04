@@ -14,7 +14,6 @@ export default function ImageCard({
       onClick={() => onClick(srcRegular, description, likes)}
     >
       <img className={css.image} src={src} alt={alt} />
-      <p className={css.imageText}>Likes: {likes}</p>
     </div>
   );
 }
